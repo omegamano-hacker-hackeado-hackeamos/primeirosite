@@ -1,0 +1,35 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /* Font family */
+    font-size: 20px; /* O tamanho da fonte principal<p></p> tag  */
+    background-color: #d9ff006f; /* A cor do plano de fundo da página */
+    color: #000000; /* A cor do texto */ 
+}
+h1 {
+    color: #e7bc00; /* A cor do cabeçalho */
+    font-size: 24px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho*/
+}
+
+h2 {color: goldenrod
+
+}
+
+@keyframes color{
+    0% {color: blue; }
+    50%{color:red; }
+    77%{color:white; }
+    100%{color: blue; }
+}
+
+h1:hover{
+    animation: color 3s infinite;
+}
+@keyframes meu{
+    0%{color: black; }
+    50%{color: orange; }
+    100%{color: blue; }
+}
+p {
+    animation: meu 1s infinite;
+    text-align: center;
+}
